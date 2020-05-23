@@ -40,3 +40,39 @@ Idea: Build and deploy a supervised deep learning model. Model will learn how to
 ![image](https://user-images.githubusercontent.com/54689111/82715717-6b59d980-9c62-11ea-84e8-2932e77e9018.png)
 
 Note: Create a TF Session object that runs operations on the graph and tracks the state of each node in the graph. Once it is created, we can ask it to run any opeation in the graph. To train the model- we run the training operation over and over, each time the training operations run, we'll pass a new training data that will be used for that training pass. Then check the current accuracy by calculating the loss function. Based on the loss function value, weight will be adjusted for each layer by back-propogation untill we get the expected output. While the training process is running, we can watch the accuracy graphically on a separate tool- Tensorboard (web based application that lets us visually monitor the system in real time)
+
+## Dataset:
+
+Features of the video games:
+1. critic_rating (out of 5)
+2. is_action 
+3. is_exclusive_to_us
+4. is_portable
+5. is_role_playing
+6. is_sequel
+7. is_sports
+8. suitable_for_kids
+9. total_earnings (to predict)
+10. unit_price
+
+We will try to predict the total_Earnings of a new game based on these characteristics of the video games.
+
+## Build The Model:
+
+Our input data has 9 features; so we need to make nine input in our neaural networks. Create a placeholder X that holds values. Create the 3 layers that will tain to get the relationship between the input and output. Fully connected layers (Dense layers) are created.
+
+Parameters:
+
+* Input layer : 9 nodes
+* Layer 1 :50 nodes
+* Layer 2 :100 nodes
+* Layer 3 : 50 nodes
+* Output Layer will have 1 node as single value prediction.
+* learning_rate = 0.001
+* training_epochs = 100
+* display_step = 5
+
+## Visualize ana track the process:
+
+I have used Tensoboard, which is a web based application that lets you track the accuarcy through the training process.
+
