@@ -93,7 +93,12 @@ Structure of the layer:
 
 ## Predictions:
 
+
 ![image](https://user-images.githubusercontent.com/54689111/82719946-f21bb000-9c7c-11ea-81d9-411d49a6bd83.png)
+
+Histogram Prediction plot:
+
+![image](https://user-images.githubusercontent.com/54689111/82726438-21004900-9cb2-11ea-83d1-afdda7b0f67f.png)
 
 
 ## Comparing Testing Results for 2 Runs:
