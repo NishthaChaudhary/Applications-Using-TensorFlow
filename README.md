@@ -72,9 +72,26 @@ Parameters:
 * training_epochs = 100
 * display_step = 5
 
-## Visualize ana track the process:
+## Visualize and track the process:
 
-I have used Tensoboard, which is a web based application that lets you track the accuarcy through the training process.
+I have used Tensoboard, which is a web based application that lets you track the accuarcy through the training process. The below dashboard shows te cost for training and test data with respect to the epochs:
 
 ![image](https://user-images.githubusercontent.com/54689111/82719846-41151580-9c7c-11ea-803c-393576baf1e6.png)
+
+
+Flow of the Layers:
+
+
+![image](https://user-images.githubusercontent.com/54689111/82721226-3dd45680-9c89-11ea-9a49-79e75ddaf515.png)
+
+
+Structure of the layer:
+
+
+![image](https://user-images.githubusercontent.com/54689111/82721240-65c3ba00-9c89-11ea-9fa3-6b5b41eed021.png)
+
+
+## Predictions:
+
+![image](https://user-images.githubusercontent.com/54689111/82719946-f21bb000-9c7c-11ea-81d9-411d49a6bd83.png)
 
