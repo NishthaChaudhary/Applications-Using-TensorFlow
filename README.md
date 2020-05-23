@@ -95,3 +95,10 @@ Structure of the layer:
 
 ![image](https://user-images.githubusercontent.com/54689111/82719946-f21bb000-9c7c-11ea-81d9-411d49a6bd83.png)
 
+
+## Comparing Testing Results for 2 Runs:
+
+Run 1 with 50 nodes and Run 2 with 20 nodes:
+
+![image](https://user-images.githubusercontent.com/54689111/82721557-1c289e80-9c8c-11ea-8fdf-d4aae3af0631.png)
+
