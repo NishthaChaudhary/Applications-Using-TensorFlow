@@ -76,5 +76,5 @@ Parameters:
 
 I have used Tensoboard, which is a web based application that lets you track the accuarcy through the training process.
 
-![image](https://user-images.githubusercontent.com/54689111/82719790-c5b36400-9c7b-11ea-9a72-7e75de35bbf8.png)
+![image](https://user-images.githubusercontent.com/54689111/82719846-41151580-9c7c-11ea-803c-393576baf1e6.png)
 
